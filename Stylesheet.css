@@ -7,12 +7,10 @@ a
 
 
 
-
-
-
 .p {            color: aqua; 
                 font-size: 220%;
                 margin:3%;
+                text-decoration: none;
                 }
 
 body{margin: 0px;
@@ -24,6 +22,8 @@ body{margin: 0px;
                 background-color: #808080; 
                 flex-wrap: wrap;
                 width: 24%;
+                margin: 1%;
+                padding: 2%;
                 border-radius:0.5vw ;
                 }
 
