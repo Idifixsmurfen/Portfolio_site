@@ -2,20 +2,69 @@
 <html lang="en">
 <title>Walter</title>
 <style>
+a
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+#navbar li a {        
+                text-decoration: none;        
+                color: #fff;        
+                padding: 1rem;        
+                font-size: 1.3rem;        
+                margin: 0 0.5rem;        
+                border-radius: 5px;        
+                transition: background-color 0.5s; 
+                }  
+#navbar li a:hover {        
+                background-color: #3693ff;
+            }
 
+.p {            color: aqua; 
+                font-size: 220%;
+                margin:3%;
+                }
+
+.flex-container { 
+                display:flex; 
+                flex-direction: column; 
+                background-color: #808080; 
+                flex-wrap: wrap;
+                width: 24%;
+                border-radius:0.5vw ;
+
+                
+            
+                }
+
+
+.flex-container > div { 
+                margin: 8%;
+                padding: 16%;
+                font-size: 220%;   
+                background-color:aqua;
+                border-radius: 1vw;
+                text-align-last:center ;
+                color: 000000 ;
+                }
 </style>
 
 <head>
-
+<div class="p"> Info </div> 
 </head>
 
 <body style=background-color:#333>
     <div>
-        Test
+        
 
+    </div>
+    <div class="flex-container">
+    <div> <a href="Page1.html">Bilder </a> </div>
+    <div> <a href="https://www.youtube.com/watch?v=MW3q7ptJ9pU">TEST2 </a> </div>
+    <div> <a href="https://www.youtube.com/watch?v=MW3q7ptJ9pU">TEST3 </a> </div>
+    <div> <a href="https://www.youtube.com/watch?v=MW3q7ptJ9pU">TEST4 </a> </div>
     </div>
 
 
 </body>
- //Detta var inte här innan
 </html>
